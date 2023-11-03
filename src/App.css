@@ -1,38 +1,26 @@
+body {
+    background-color: #fffff7;
+}
+
 .App {
-  text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.overlayPaper {
+    position: fixed;
+    background-image: url('./assets/markatto.jpg');
+    z-index: 9998;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: fill;
+    mix-blend-mode: multiply;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-size: 1700px;
+    height: 100vh;
+    width: 100vw;
 }

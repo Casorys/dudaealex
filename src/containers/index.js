@@ -1,0 +1,7 @@
+export { default as Hero } from './Hero/Hero'
+export { default as WelcomeText } from './WelcomeText/WelcomeText'
+export { default as SecondText } from './SecondText/SecondText'
+export { default as ThirdText } from './ThirdText/ThirdText'
+export { default as RSVP } from './RSVP/RSVP'
+export { default as Map } from './Map/Map'
+export { default as Presentes } from './Presentes/Presentes'

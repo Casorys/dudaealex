@@ -1,0 +1,58 @@
+.heroMainContainer {
+    height: 100vh;
+    background-image: url('../../assets/bgVitoria.png');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.heroNameDate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.heroNameDate h1 {
+    margin-bottom: auto;
+    font-family: var(--mainDateFont);
+    font-size: 6rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.heroNameDate h3 {
+    margin-top: 2px;
+    font-family: var(--deaSignature);
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    .heroNameDate h1 {
+        font-size: 4.5rem;
+    }
+    .heroNameDate h3 {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 450px) {
+    .heroNameDate h1 {
+        font-size: 3rem;
+    }
+    .heroNameDate h3 {
+        font-size: 2.5rem;
+    }
+}

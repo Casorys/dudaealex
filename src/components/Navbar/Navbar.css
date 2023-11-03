@@ -1,0 +1,129 @@
+.navbarMainContainer {
+    z-index: 10000;
+    width: 100vw;
+    position: fixed;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: 0.3s ease-in-out;  
+    -moz-transition: 0.3s ease-in-out;  
+    -o-transition: 0.3s ease-in-out;  
+    transition: 0.3s ease-in-out;
+}
+
+.navbarMainContainerActive {
+    z-index: 9999;
+    width: 100vw;
+    position: fixed;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: 0.3s ease-in-out;  
+    -moz-transition: 0.3s ease-in-out;  
+    -o-transition: 0.3s ease-in-out;  
+    transition: 0.3s ease-in-out;
+}
+
+.deaText {
+    margin: auto;
+    margin-left: 175px;
+    font-family: var(--deaText);
+    font-size: 2.5rem;
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: black;  
+}
+
+.pagesContainer {
+    margin: auto;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.presentesLink {
+    font-family: var(--mainDateFont);
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.buttonPresenca a {
+    /* margin-left: 40px; */
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    word-wrap: break-word;
+    font-family: var(--standardFont);
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-width:1px;
+    border-top-left-radius:9px;
+    border-top-right-radius:9px;
+    border-bottom-left-radius:9px;
+    border-bottom-right-radius:9px;
+    color:#fff;
+    border-color:rgba(0, 0, 0, 1);
+    background:rgba(0, 0, 0, 1);
+    -webkit-transition: 0.3s ease-in-out;  
+    -moz-transition: 0.3s ease-in-out;  
+    -o-transition: 0.3s ease-in-out;  
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.buttonPresenca a:hover {
+    color: #000;
+    background: rgba(255, 255, 255, 1);
+    border-width: 1px;
+}
+
+@media (max-width: 900px) {
+
+    .deaText {
+        margin-left: 80px;
+    }
+
+    .pagesContainer {
+        margin-right: 70px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .pagesContainer {
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+        align-items: center;
+    }
+
+    .presentesLink {
+        /* margin-bottom: 10px; */
+    }
+
+    .buttonPresenca {
+        margin-left: 0px;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+
+    .deaText {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}

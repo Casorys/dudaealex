@@ -1,0 +1,27 @@
+.secondTextMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.welcomeDrinksImg {
+    height: 100px;
+    mix-blend-mode: multiply;
+}
+
+.divisor {
+    width: 60%;
+    height: 5px;
+    border-radius: 30px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.secondTextMainContainer h1, h2, h4, p {
+    font-family: var(--mainDateFont);
+}
+
