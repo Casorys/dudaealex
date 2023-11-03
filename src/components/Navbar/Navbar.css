@@ -35,6 +35,16 @@
     font-size: 2.5rem;
     text-decoration: none;
     letter-spacing: 5px;
+    color: white;  
+}
+
+.deaTextActive {
+    margin: auto;
+    margin-left: 175px;
+    font-family: var(--deaText);
+    font-size: 2.5rem;
+    text-decoration: none;
+    letter-spacing: 5px;
     color: black;  
 }
 
@@ -46,6 +56,15 @@
 }
 
 .presentesLink {
+    font-family: var(--mainDateFont);
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.presentesLinkActive {
     font-family: var(--mainDateFont);
     text-decoration: none;
     font-size: 1.1rem;
@@ -89,7 +108,7 @@
 
 @media (max-width: 900px) {
 
-    .deaText {
+    .deaText, .deaTextActive {
         margin-left: 80px;
     }
 
@@ -120,7 +139,7 @@
         margin-bottom: 5px;
     }
 
-    .deaText {
+    .deaText, .deaTextActive {
         margin-left: auto;
         margin-right: auto;
     }

@@ -19,9 +19,9 @@ const Navbar = () => {
 
   return (
     <div className={navbar ? 'navbarMainContainerActive' : 'navbarMainContainer'}>
-        <a href="index.html" className='deaText'>D&A</a>
+        <a href="#top" className={navbar ? 'deaTextActive' : 'deaText'}>D&A</a>
         <div className='pagesContainer'>
-          <a href="#presentes" className='presentesLink'>Presentes</a>
+          <a href="#presentes" className={navbar ? 'presentesLinkActive' : 'presentesLink'}>Presentes</a>
           <p className='buttonPresenca'><a href='#confirmationForm'>Confirmar Presença</a></p>
         </div>
     </div>

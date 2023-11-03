@@ -2,6 +2,10 @@ body {
     background-color: #fffff7;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .App {
     margin: 0;
     padding: 0;

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb2aacf3.css",
+    "main.js": "/static/js/main.4c7f2ac1.js",
+    "static/media/bgVitoria.png": "/static/media/bgVitoria.6d49bc0f29d1ae8ca470.png",
+    "static/media/markatto.jpg": "/static/media/markatto.1c3eaa19d58d0eff5c48.jpg",
+    "static/media/appleCalendarIcon.png": "/static/media/appleCalendarIcon.fb087cdd895fbe76c0c0.png",
+    "static/media/espelhoDAgua.jpg": "/static/media/espelhoDAgua.a1fc43fb0ecd2a85bdb5.jpg",
+    "static/media/welcomeDrinksImg.jpeg": "/static/media/welcomeDrinksImg.f077048e70dc73b43d7c.jpeg",
+    "static/media/casamentoImg.jpg": "/static/media/casamentoImg.5cc52ee3576afdff21bc.jpg",
+    "static/media/googleCalendarIcon.svg": "/static/media/googleCalendarIcon.7a15245d50b246046504f8ec8ba7cc1d.svg",
+    "index.html": "/index.html",
+    "main.bb2aacf3.css.map": "/static/css/main.bb2aacf3.css.map",
+    "main.4c7f2ac1.js.map": "/static/js/main.4c7f2ac1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb2aacf3.css",
+    "static/js/main.4c7f2ac1.js"
+  ]
+}
