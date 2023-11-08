@@ -5,14 +5,15 @@
     text-align: center;
 }
 
-p {
-    margin-left: 50px;
-    margin-right: 50px;
+.firstSection p {
+    /* margin-left: 50px;
+    margin-right: 50px; */
 }
 
 h1,h2,h3,h4,h5,h6 {
     margin-left: 50px;
     margin-right: 50px;
+    text-align: center;
 }
 
 .divisor {

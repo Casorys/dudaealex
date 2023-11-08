@@ -35,9 +35,14 @@
 }
 
 .descParagraph {
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
+    /* width: 60%; */
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.firstSection h3{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .divisor {
