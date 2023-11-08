@@ -14,7 +14,7 @@
     align-items: center;
     color: white;
     margin: auto;
-    margin-bottom: 0px;
+    margin-top: 50px;
 }
 
 .heroNameDate h1 {
@@ -46,6 +46,9 @@ body {
     }
     .heroNameDate h3 {
         font-size: 3rem;
+    }
+    .heroNameDate {
+        margin-top: 100px;
     }
 }
 @media (max-width: 450px) {

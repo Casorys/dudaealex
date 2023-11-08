@@ -21,8 +21,9 @@ const Navbar = () => {
     <div className={navbar ? 'navbarMainContainerActive' : 'navbarMainContainer'}>
         <a href="#top" className={navbar ? 'deaTextActive' : 'deaText'}>D&A</a>
         <div className='pagesContainer'>
-          <a href="#presentes" className={navbar ? 'presentesLinkActive' : 'presentesLink'}>Presentes</a>
-          <p className='buttonPresenca'><a href='#confirmationForm'>Confirmar Presença</a></p>
+          <a href="#programacao" className={navbar ? 'presentesLinkActive' : 'presentesLink'}>Programação</a>
+          <a href="#dicas" className={navbar ? 'presentesLinkActive' : 'presentesLink'}>Dicas</a>
+          <p className='buttonPresenca'><a href='#rsvp'>Confirmar Presença</a></p>
         </div>
     </div>
   )

@@ -6,9 +6,10 @@ const WelcomeText = () => {
   return (
     <div className='welcomeTextMainContainer'>
         <div className='firstSection'>
-            <h2>Bem Vindos ao Nosso site!</h2>
-            <p>Estamos muito felizes em poder compartilhar esse momento com vocês. Mais do que convidados, vocês fazem parte dessa história e não poderiam faltar neste capítulo.<br/>Para que possamos compartilhar nossa Ilha da Magia com cada um de vocês, sugerimos que nos presenteiem com sua presença!<br/>Criamos este site para compartilhar tudo sobre nosso casamento: horários, local, onde se hospedar, além de dicas turísticas.<br/>Duda e Alex</p>
+            <h2>BEM VINDOS AO NOSSO SITE</h2>
+            <p>ESTAMOS MUITO FELIZES EM PODER COMPARTILHAR ESSE MOMENTO COM VOCÊS, MAIS DO QUE CONVIDADOS VOCÊS FAZEM PARTE DESSA HISTÓRIA E NÃO PODERIAM FALTAR NESTE CAPÍTULO.<br/><br/>PARA QUE POSSAMOS COMPARTILHAR NOSSA ILHA DA MAGIA COM CADA UM DE VOCÊS, SUGERIMOS QUE NOS PRESENTEIEM COM SUA PRESENÇA!<br/><br/>CRIAMOS ESTE SITE PARA COMPARTILHAR TUDO SOBRE NOSSO CASAMENTO: HORÁRIOS, LOCAL, ONDE SE HOSPEDAR, ALÉM DE DICAS TURÍSTICAS.<br/><br/><br/>DUDA E ALEX</p>
         </div>
+        <div  id='programacao'></div>
         <Timer />
         <div className='divisor'></div>
     </div>

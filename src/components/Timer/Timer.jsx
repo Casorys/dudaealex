@@ -7,7 +7,7 @@ const Timer = () => {
   const [countdownMinutes, setCountdownMinutes] = useState(0);
 
   const getRemainingTime = () => {
-    const targetDate = new Date("2024-06-15");
+    const targetDate = new Date("2024-06-15 00:00:00");
     const currentDate = new Date();
 
     const millisecondsRemaining = targetDate - currentDate;
@@ -29,13 +29,13 @@ const Timer = () => {
 
   var daysText = 'Dias'
   var hoursText = 'Horas'
-  var minutesText = 'Minutos'
+  var minutesText = 'Mins'
 
   if (countdownDays <= 1) { daysText = 'Dia' } else { daysText = 'Dias' }
 
   if (countdownHours <= 1) { hoursText = 'Hora' } else { hoursText = 'Horas' }
 
-  if (countdownMinutes <= 1) { minutesText = 'Minuto' } else { minutesText = 'Minutos' }
+  if (countdownMinutes <= 1) { minutesText = 'Min' } else { minutesText = 'Mins' }
 
   return (
     <div className="timerMainContainer">

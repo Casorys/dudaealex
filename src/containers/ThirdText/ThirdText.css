@@ -14,18 +14,24 @@
     mix-blend-mode: multiply;
 }
 
-.casamentoTitle {
-    padding-top: 0;
-    margin-top: 5px;
-}
 
 .espelhoDAguaImg {
+    margin-top: 20px;
     height: 250px;
     mix-blend-mode: multiply;
 }
 
 .thirdTextMainContainer h2, h4, h5, p {
     font-family: var(--mainDateFont);
+}
+.casamentoTitle {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: var(--deaSignature);
+    font-size: 80px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .descParagraph {
@@ -52,8 +58,17 @@
     margin-right: 15px;
 }
 
-@media (max-width: 450px) {
+#programacao {
+    display: hidden;
+}
+
+@media (max-width: 700px) {
     .espelhoDAguaImg {
         height: 170px;
+    }
+}
+@media (max-width: 450px) {
+    .espelhoDAguaImg {
+        height: 150px;
     }
 }

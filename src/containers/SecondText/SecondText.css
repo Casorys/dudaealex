@@ -10,6 +10,11 @@
     mix-blend-mode: multiply;
 }
 
+.firstSection {
+    width: 60%;
+}
+
+
 .divisor {
     width: 60%;
     height: 5px;
@@ -23,5 +28,30 @@
 
 .secondTextMainContainer h1, h2, h4, p {
     font-family: var(--mainDateFont);
+}
+
+.welcomeDrinksTitle {
+    font-family: var(--deaSignature);
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.progH1 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (max-width: 470px) {
+    h1 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 370px) {
+     h1 {
+        font-size: 22px;
+    }
 }
 

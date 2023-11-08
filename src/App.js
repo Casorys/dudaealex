@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, WelcomeText, SecondText, ThirdText, RSVP, Map, Presentes } from './containers'
+import { Hero, WelcomeText, SecondText, ThirdText, FourthText, RSVP, Map, Presentes } from './containers'
 import './App.css'
 
 const App = () => {
@@ -10,9 +10,9 @@ const App = () => {
         <WelcomeText />
         <SecondText />
         <ThirdText />
-        <RSVP />
+        <FourthText />
         <Map />
-        <Presentes />
+        <RSVP />
     </div>
   )
 }

@@ -7,15 +7,17 @@ const SecondText = () => {
   return (
     <div className='secondTextMainContainer'>
         <div className='firstSection'>
-            <h1>PROGRAMAÇÃO</h1>
+            <h1 className='progH1'>PROGRAMAÇÃO</h1>
             <div>
               <img src={welcomeDrinksImg} alt="Varios Drinks em Preto e Branco" className='welcomeDrinksImg'/>
-              <h2>WELCOME DRINKS</h2>
-              <h4>14.06.2024</h4>
+              <p className='welcomeDrinksTitle'>Welcome Drinks</p>
+              <h3>14.06.2024</h3>
             </div>
             <p>
-            Para entrar em clima de praia, estaremos recepcionando os convidados no _________, na praia, a partir das 17hs na sexta-feira.<br/>Serão disponibilizadas vans do aeroporto até o welcome.<br/>Drinks serão por conta dos noivos!<br/>Venha confortável. Recomendamos rasteirinhas, havaianas ou tênis.<br/>Esperamos você lá!
+            Para entrar em clima de praia, estaremos recepcionando os convidados na praia.
             </p>
+            <h3>local: clericot café, curva da jurema.<br/>a partir das 17:00 horas.</h3>
+            <p>Drinks serão por conta dos noivos!<br/>Recomendamos rasteirinhas, havaianas ou tênis, malhas são bem vindas para melhorar o conforto com o cair da noite.</p>
         </div>
         <div className='divisor'></div>
     </div>

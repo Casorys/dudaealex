@@ -1,5 +1,11 @@
 body {
     background-color: #fffff7;
+    color: #737373;
+}
+
+h1 {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 html {
