@@ -107,7 +107,45 @@
 .buttonPresenca a:hover {
     color: #000;
     background: rgba(255, 255, 255, 1);
-    border-width: 1px;
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.menuColor {
+    color: #fff;
+}
+
+.menuColorActive {
+    color: #000;
+}
+
+.navbarMenu svg {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.navbarMenu {
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+    position: relative;
+}
+
+.navbarMenuContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 900px) {
@@ -142,7 +180,7 @@
     .buttonPresenca {
         margin-left: 0px;
         margin-right: auto;
-        margin-bottom: 5px;
+        /* margin-bottom: 5px; */
     }
 
     .deaText, .deaTextActive {
@@ -151,4 +189,29 @@
     }
 
 
+}
+
+@media screen and (max-width: 1050px) {
+    .pagesContainer {
+        display: none;
+    }
+
+    .navbarMenu {
+        display: flex;
+        margin-right: 75px;
+    }
+
+    .presentesLink {
+        color: #000;
+    }
+
+    .navbarMenuContainerLinks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbarMenuContainerLinks a{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
 }
